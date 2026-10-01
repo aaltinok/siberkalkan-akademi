@@ -7353,8 +7353,8 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.markdown(
         "<p style='text-align:center;color:#5a9ed4;font-size:0.75rem;'>"
-        "SiberKalkan Akademi v1.0<br>"
-        
+        "🔐 SiberKalkan Akademi v5.0<br>"
+        "Siber Güvenlik Eğitim Platformu</p>",
         unsafe_allow_html=True
     )
     
