@@ -1,0 +1,35 @@
+# ============================================
+# SiberKalkan Akademi - Bağımlılıklar
+# ============================================
+# Versiyon: 5.0
+# Python: 3.10+
+# ============================================
+
+# --- Web Framework ---
+streamlit>=1.30.0
+
+# --- Veri İşleme ---
+pandas>=2.1.0
+numpy>=1.26.0
+
+# --- Görselleştirme ---
+plotly>=5.18.0
+
+# --- Ağ Analizi ---
+networkx>=3.2
+
+# --- Yardımcı ---
+Pillow>=10.0.0
+
+# ============================================
+# NOT: LLM Entegrasyonu için (opsiyonel)
+# ============================================
+# Aşağıdaki satırı açarsanız OpenAI API aktif olur
+# openai>=1.10.0
+
+# ============================================
+# Geliştirici Bağımlılıkları (opsiyonel)
+# ============================================
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
