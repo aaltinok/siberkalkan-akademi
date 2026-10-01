@@ -2,10 +2,8 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                    SİBERKALKAN AKADEMİ v5.0                                 ║
 ║            Siber Güvenlik Savunma Eğitim Simülasyonu                        ║
-║                                                                              ║
-║  Danışman: Ahmet ALTINOK                                                    ║
-║  Kurum: Ankara / Çankaya                                                    ║
-║  Kategori: TÜBİTAK 2204-A                                                   ║
+║                                                                            ║
+║                                                 ║
 ║                                                                              ║
 ║  Bu platform, %70 SAVUNMA + %30 tehdit anlayışı prensibiyle çalışır.        ║
 ║  Tüm senaryolar eğitim amaçlıdır ve etik koruma katmanı ile korunur.        ║
@@ -7277,8 +7275,7 @@ def main():
     <div style='text-align:center;padding:8px 0;'>
         <h1 style='color:#00ff41;font-size:1.6rem;margin:0;line-height:1.2;'>🛡️ SİBERKALKAN AKADEMİ</h1>
         <p style='color:#5a9ed4;margin:4px 0;font-size:0.85rem;line-height:1.2;'>Siber Savunma Eğitim Simülasyonu</p>
-        <p style='color:#888888;margin:4px 0;font-size:0.7rem;line-height:1.2;'>TÜBİTAK 2204-A | Ahmet ALTINOK 2026</p>
-    </div>
+      
     """, unsafe_allow_html=True)
     
     st.sidebar.markdown("---")
@@ -7356,8 +7353,8 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.markdown(
         "<p style='text-align:center;color:#5a9ed4;font-size:0.75rem;'>"
-        "🔐 SiberKalkan Akademi v5.0<br>"
-        "TÜBİTAK 2204-A Projesi</p>",
+        "SiberKalkan Akademi v1.0<br>"
+        
         unsafe_allow_html=True
     )
     
@@ -7414,7 +7411,7 @@ def main():
                     st.error(f"⚠️ Rapor sistemi hatası: {e}")
             else:
                 st.warning(f"⚠️ {selected_scenario} senaryosu yükleniyor...")
-                
+
                 
         else:
             st.warning("Senaryo bilgisi bulunamadı. Lütfen geçerli bir senaryo seçin.")
